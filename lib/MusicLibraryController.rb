@@ -23,9 +23,9 @@ class MusicLibraryController
       puts "What would you like to do?"
       input = gets.strip
       case input
-  
+            binding.pry
         when input == "list songs"
-          binding.pry
+
           list_songs
         when input == "list artists"
           list_artists

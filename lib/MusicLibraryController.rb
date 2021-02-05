@@ -25,7 +25,7 @@ class MusicLibraryController
       case input
   
         when input == "list songs"
-        binding.pry
+          binding.pry
           list_songs
         when input == "list artists"
           list_artists

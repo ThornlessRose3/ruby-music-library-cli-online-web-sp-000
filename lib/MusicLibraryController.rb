@@ -27,13 +27,13 @@ class MusicLibraryController
           list_songs
         when "list artists"
           list_artists
-        when input == "list genres"
+        when "list genres"
           list_genres
-        when input == "list artist"
+        when "list artist"
           list_songs_by_artist
-        when input == "list genre"
+        when "list genre"
           list_songs_by_genre
-        when input == "play song"
+        when "play song"
           play_song
         end
       end
